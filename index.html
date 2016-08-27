@@ -1,0 +1,52 @@
+<!doctype html>
+
+<body>
+  <head>
+    <link rel="stylesheet" href="TableGame.css">
+    <meta charset="utf-8"/>
+    <meta name="description" content="A Table Game by Artes Oscuras. None of the images, audio, or video are owned by me."/>
+    <meta name="author" content="Artes Oscuras"/>
+    <meta property="og:title" content="Table Game"/>
+    <!-- add og:url here -->
+    <meta property="og:description" content="Experimental Table Game by Artes Oscuras. None of the images, audio, or video are owned by me."/>
+    <!-- add fb:admins here -->
+  </head>
+  <audio src="incorrect.mp3"></audio>
+  <audio src="correct.mp3"></audio>
+  <h1 id="attempts">Attemps left: 3</h1>
+
+  <body>
+
+    <h1 id="heading">Hello</h1>
+    <div class="button" id="button1"><h2 onclick="press()"> Hi? </h2></div>
+
+    <table>
+      <tr>
+        <td onclick="answer(0,0)">1</td>
+        <td onclick="answer(0,1)">2</td>
+        <td onclick="answer(0,2)">3</td>
+        <td onclick="answer(0,3)">4</td>
+      </tr>
+      <tr>
+        <td onclick="answer(1,0)">5</td>
+        <td onclick="answer(1,1)">6</td>
+        <td onclick="answer(1,2)">7</td>
+        <td onclick="answer(1,3)">8</td>
+      </tr>
+      <tr>
+        <td onclick="answer(2,0)">9</td>
+        <td onclick="answer(2,1)">10</td>
+        <td onclick="answer(2,2)">11</td>
+        <td onclick="answer(2,3)">12</td>
+      </tr>
+      <tr>
+        <td onclick="answer(3,0)">13</td>
+        <td onclick="answer(3,1)">14</td>
+        <td onclick="answer(3,2)">15</td>
+        <td onclick="answer(3,3)">16</td>
+      </tr>
+    </table>
+    <a href="index.html"><h3 id="playAgain">Play again?</h3></a>
+    <script src="script.js"></script>
+  </body>
+</body>
